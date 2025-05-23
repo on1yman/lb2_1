@@ -1,12 +1,16 @@
 #include <iostream>
-// Это нужно для ввода и вывода
+#include <string>
 
-int main() {
-    std::string name;
-    // Запрашиваем имя пользователя
-    std::cout << "Enter your name: ";
-    std::cin >> name;
-    // Выводим персонализированное сообщение
-    std::cout << "Hello world from @" << name << std::endl;
-    return 0;
+// This is necessary for input and output
+
+int
+main()
+{
+  std::string name;
+  // Prompt the user for their name
+  std::cout << "Enter your name: ";
+  std::cin >> name;
+  // Display personalized message
+  std::cout << "Hello world from @" << name << std::endl;
+  return 0;
 }
