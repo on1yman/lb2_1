@@ -1,10 +1,12 @@
 #include <iostream>
-using namespace std;
+// Это нужно для ввода и вывода
 
-int main(){
-    string name;
-    cout << "Enter your name: ";
-    cin >> name;
-    cout << "Hello world from @" << name << endl;
+int main() {
+    std::string name;
+    // Запрашиваем имя пользователя
+    std::cout << "Enter your name: ";
+    std::cin >> name;
+    // Выводим персонализированное сообщение
+    std::cout << "Hello world from @" << name << std::endl;
     return 0;
 }
